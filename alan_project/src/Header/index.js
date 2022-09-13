@@ -1,6 +1,11 @@
 import React from "react";
+import { HeaderContainer } from "./style";
 
 function Header() {
-  return <div>I am the header</div>;
+  return (
+    <HeaderContainer>
+      <div>I am the header</div>
+    </HeaderContainer>
+  );
 }
 export default Header;
