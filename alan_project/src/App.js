@@ -1,11 +1,7 @@
 import Body from "./Body";
 
 const App = () => {
-  return (
-    <div className="App">
-      <Body />
-    </div>
-  );
+  return <Body />;
 };
 
 export default App;
